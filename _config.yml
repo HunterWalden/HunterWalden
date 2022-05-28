@@ -7,47 +7,48 @@ url: ''
 baseurl: 
 
 # Title of the Site
-title: What A Theme
+title: Hunter Walden
 # Description of the Site
-description: A customizable Jekyll portfolio theme
+description: A passionate software developer looking to start my career
 # URL of Image of the Site
-site-image: /WhatATheme/assets/images/meta.jpg
+site-image: /WhatATheme/assets/images/header.PNG
 # Keywords of the Site
-site-keywords: Site, Template, Theme
+site-keywords: Portfolio, Programmer
 # URL for the Image of custom Favicon
 favicon-url: 
 
 # URL of the Image of Custom Hero Image (i.e., the image in the background of the very first section of the Homepage)
-heroimage: https://images.pexels.com/photos/220444/pexels-photo-220444.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940
+heroimage: https://raw.githubusercontent.com/HunterWalden/HunterWalden/main/examples/mapmaker/images/header.PNG
 
 # Social Media and Contact
 # If you don't want to use any icon, you can leave them blank.
-email: thedevslot@gmail.com
-facebook_username: thedevslot
-twitter_username: thedevslot
-instagram_username: thedevslot
-linkedin_username: thedevslot
-github_username:  thedevslot
-youtube_channel_id: UCk_93NXYP-U_AOB5GfWlOow
-reddit_username: /
-behance_username: /
-dribbble_username: /
-spotify_username: /
+email: hunterawalden@gmail.com
+facebook_username: 
+twitter_username: 
+instagram_username: 
+linkedin_username: 
+github_username:  HunterWalden
+youtube_channel_id: 
+reddit_username: 
+behance_username: 
+dribbble_username: 
+spotify_username: 
 
 # Google Analytics
-google-analytics: UA-163806439-1
+google-analytics: 
 
 # Disqus
-disqus-shortname: thedevslot
+disqus-shortname: 
 
 # Name of the Author
-author-name: TheDevsLot
+author-name: Hunter Walden
 # URL for the Image of the Author
 author-image: https://cdn.pixabay.com/photo/2015/10/05/22/37/blank-profile-picture-973460_960_720.png
 # 60 Words About the Author
-author-about: Lorem ipsum dolor sit amet, consectetur adipiscing elit. Suspendisse eget pharetra velit, dapibus bibendum ex. Maecenas vitae laoreet mauris, ac luctus metus. Aliquam luctus velit vel ipsum feugiat, vel venenatis mauris hendrerit. Sed at vulputate sapien, eget vehicula dolor. Aliquam volutpat pulvinar neque sit amet sodales.
+author-about: I discovered coding in 2014 and haven't stopped since. I saw my first source code in my junior year of high school and immediately knew I had found my passion. I taught myself C++ by adding dozens of features to the Impressive Title source code through commissions and personal projects. After graduating high school, I continued my commission work as I earned my Bachelor's degree in Computer Science, padding my existing knowledge with good coding practices and advanced concepts. In 2021 I began development on my own program, an editor utility made for Impressive Title servers, allowing me to expand my knowledge further by applying concepts to real-life coding problems. Though my experience is primarily C++, I worked with several other languages in college and I taught myself most of what I know through hands-on work. I am confident in my ability to read code syntax and follow logic flow in order to adapt to new languages and environments. I am eager for the opportunity to become part of a team and both showcase my abilities and further expand my skillset.
 # URL to the Author's Profile (i.e., Github, Twitter, Stackoverflow, etc)
-author-url: https://github.com/thedevslot
+author-url: https://github.com/HunterWalden
+author-contact: hunterawalden@gmail | 774.275.9444 | github.com/HunterWalden
 
 # SASS
 sass:
