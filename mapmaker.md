@@ -684,7 +684,7 @@ The program is currently released, though the stable version is very basic in de
 - CollBoxes and CollSpheres have visual indicators
 - Includes a new random object generator that uses a black and white density map to scatter objects on terrain in specific areas
 
-## New Version 2 Features:
+## New Version 2 Features
 
 - CTRL+Z functionality to undo the last [x] object changes
 - A brand new Settings box with its own design and functionality, all written from scratch
