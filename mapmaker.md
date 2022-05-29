@@ -1,11 +1,17 @@
 ---
+layout: mainpage
 title: /mapmaker/
 header: Impressive Title MapMaker
 ---
 
-![A screenshot showing a map named Haven loaded in the Map Maker program. There is a bonfire particle in the center with log meshes on each side, as well as several trees and rocks with collision indicators in the background.](assets/images/screenshot1.png)
+---
 
-The Impressive Title MapMaker is an editor utility program made for the [Impressive Title source code](https://kito.forumotion.com/t532-download-and-instructions-compile-your-own-it). Its purpose is to provide an easy interface and real-time visuals in order to create map environments for the game. This includes laying out a terrain material with mask and terrain textures, applying a heightmap and reloading it to view changes, tweaking the map settings like weather and effects, and placing and editing objects of various types in the world. 
+## Table of Contents
+
+* TOC
+{:toc}
+
+---
 
 ## Impressive Title
 

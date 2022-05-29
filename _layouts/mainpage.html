@@ -1,0 +1,34 @@
+---
+layout: compress
+---
+
+<!DOCTYPE html>
+<html>
+{% include head.html %}
+
+<body>
+    {% include navbar.html %}
+    <section class="hero is-fullheight">
+        <div class="hero-body">
+            <div class="container" id="page-section">
+                <div class="section">
+				    <h1 class="title is-1 is-uppercase has-text-weight-bold">
+                        {{page.header}}
+                    </h1>
+                    <hr class="has-background-black">
+					<img src="https://hunterwalden.github.io/HunterWalden/assets/images/screenshot1.png" >
+					<br>
+					<p>The Impressive Title MapMaker is an editor utility program made for the <a href="https://kito.forumotion.com/t532-download-and-instructions-compile-your-own-it">Impressive Title source code</a>. Its purpose is to provide an easy interface and real-time visuals in order to create map environments for the game. This includes laying out a terrain material with mask and terrain textures, applying a heightmap and reloading it to view changes, tweaking the map settings like weather and effects, and placing and editing objects of various types in the world.</p>
+					<p><ul></ul></p>
+                    <div class="content is-marginless">
+                        {{ content }}
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <!--Footer begins here-->
+    {% include footer.html %}
+</body>
+
+</html>
