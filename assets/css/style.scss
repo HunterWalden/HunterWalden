@@ -68,14 +68,20 @@ a.navbar-item.is-active {
     background: -webkit-linear-gradient(0deg, rgba(0, 0, 0, 1) 0%, rgba(0, 0, 0, 0.75) 100%);
     background: linear-gradient(0deg, rgba(0, 0, 0, 1) 0%, rgba(0, 0, 0, 0.75) 100%);
     filter: progid:DXImageTransform.Microsoft.gradient(startColorstr="#000000", endColorstr="#000000", GradientType=1);
+    position: relative;
 
-    #projects::before {
+    &::before {
         filter: blur(0.15rem);
         background-image: url(https://raw.githubusercontent.com/HunterWalden/HunterWalden/master/assets/images/screenshot1.png);
         background-position: center;
         background-repeat: no-repeat;
         background-size: cover;
         background-attachment: fixed;
+        top: 0px;
+        right: 0px;
+        bottom: 0px;
+        left: 0px;
+        position: absolute;
         opacity: 0.25;
         content: "";
     }
