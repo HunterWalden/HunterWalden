@@ -1,16 +1,25 @@
 <div class="navbar-item has-dropdown is-hoverable">
     <a class="navbar-link">
-        MORE
+        MAPMAKER
     </a>
     <div class="navbar-dropdown has-background-black is-left">
-        {% for sitepage in site.html_pages %}
-        {% unless sitepage.url == '/' or sitepage.url == '/404'  or sitepage.url == '/blog' %}
-        <a href="{{sitepage.url | absolute_url}}"
-            class="navbar-item has-text-grey-light {% if page.url == sitepage.url | absolute_url  %}is-active{% endif %}">
-            {{sitepage.title}}
+	
+	<a href="{{site.url}}{{site.baseurl}}/mapmaker.html"
+            class="navbar-item has-text-grey-light"> <!-- TODO {% if page.title == /mapmaker/ %}is-active{% endif %}-->
+            Main
         </a>
-        {% endunless %}
-        {% endfor %}
+		
+	<a href="{{site.url}}{{site.baseurl}}/mapmaker.html#coding-practices" class="navbar-item has-text-grey-light">
+            Coding Practices
+        </a>
+		
+	<a href="{{site.url}}{{site.baseurl}}/mapmaker/mapobjects.html" class="navbar-item has-text-grey-light">
+            Showcase: Polymorphism
+        </a>
+		
+	<a href="{{site.url}}{{site.baseurl}}/mapmaker/tempstorage.html" class="navbar-item has-text-grey-light">
+            Showcase: Temporary Storage
+        </a>
         <!-- <hr class="navbar-divider">
     <a class="navbar-item">
       Report an issue
