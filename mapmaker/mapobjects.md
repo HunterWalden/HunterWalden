@@ -1,8 +1,7 @@
 ---
 title: /mapobjects/
+header: Polymorphic Object Classes
 ---
-
-# Polymorphic Object Classes
 
 When I originally wrote the program, much of it was based on, if not pulled directly, from the original Impressive Title source. This was intentional in some places, for parity between the program and Impressive Title games, but in others, it was simply to get things done quickly. It worked at the time for a quick 1:1 interface where the user inputs something and I apply it properly, but it quickly became a problem as I tried to progress.
 
