@@ -700,7 +700,7 @@ The program is currently released, though the stable version is very basic in de
 
 ## New Version 2 Features
 
-- CTRL+Z functionality to undo the last [x] object changes
+- CTRL+Z functionality to undo the last 10 object changes
 - A brand new Settings box with its own design and functionality, all written from scratch
 - Help Pop-Ups that show and give more detail if you hover certain elements
 - [A temporary storage system that exports unsaved object changes to a file that can be recovered if the program crashes/closes unexpectedly]({{'mapmaker/tempstorage.html' | relative_url }})
