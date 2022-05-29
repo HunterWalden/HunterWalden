@@ -316,7 +316,7 @@ void CollBox::setPosition(const Vector3& position)
 		position.z);
 }
   
-  const Vector3 CollBox::getPosition() const
+const Vector3 CollBox::getPosition() const
 {
 	// Use exported Y
 	return Vector3(mNode->getPosition().x, mExportedY, mNode->getPosition().z);
