@@ -47,7 +47,7 @@ acaciaTree.mesh
 
 The format may be fairly clear (once you understand the position of the numbers), but consider a finished map:
 
-<details><summary>[Click me for lots of text!]</summary>
+<details><summary>Click me for lots of text!</summary>
 
 <pre>
 [Initialize]
@@ -655,7 +655,7 @@ The sequel to Impressive Title, FeralHeart, has its own built-in mapmaker that l
 
 Enter the Impressive Title MapMaker. It was inspired by the FeralHeart editor, and has similar functionality, though its code is completely separate. Its simple design allows users to enter map details and grab-and-place objects in an intuitive way, reducing the time and effort put into mapmaking significantly. Once they are finished, the program automatically exports their work into files readable by Impressive Title, allowing them to “plug and play” by copy/pasting the files to the proper location and running the game.
 
-<details><summary>Screenshots:</summary>
+<details><summary>Screenshots</summary>
 	
 <img src="assets/images/screenshot2.png">
 <img src="assets/images/screenshot3.png">
@@ -703,14 +703,14 @@ The program is currently released, though the stable version is very basic in de
 - CTRL+Z functionality to undo the last [x] object changes
 - A brand new Settings box with its own design and functionality, all written from scratch
 - Help Pop-Ups that show and give more detail if you hover certain elements
-- **[A temporary storage system that exports unsaved object changes to a file that can be recovered if the program crashes/closes unexpectedly]({{'mapmaker/tempstorage.html' | relative_url }})**
+- [A temporary storage system that exports unsaved object changes to a file that can be recovered if the program crashes/closes unexpectedly]({{'mapmaker/tempstorage.html' | relative_url }})
 - The ability to customize the UI position, tab spacing/alignment, indicator colors, and sensitivity of the up/down arrow buttons on object attributes
 - The ability to customize the program’s keybinds
 - A “Retry” button on File Not Found errors that reloads the resource group to capture any changes and tries the action again
 - UI elements moved to their own individual classes
   - Added GUI namespace
   - Added Element base class that all element types derive from
-- **[Map objects moved to their own individual classes]({{'mapmaker/mapobjects.html' | relative_url }})**
+- [Map objects moved to their own individual classes]({{'mapmaker/mapobjects.html' | relative_url }})
   - Added MapEditor namespace
   - Added BaseObject abstract base class that all objects derive from
 

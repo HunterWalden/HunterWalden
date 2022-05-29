@@ -376,4 +376,18 @@ a.navbar-item.is-active {
     h1, h2, h3 {
         text-align: center;
     }
+
+    a {
+        font-weight: bold;
+    }
+
+    summary {
+        font-weight: bold;
+        font-size: 1.25em;
+        margin-bottom: 0.5em;
+    }
+}
+
+.markdown-toc {
+    border: 3px solid black;
 }
