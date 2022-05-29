@@ -61,6 +61,26 @@ a.navbar-item.is-active {
         content: "";
     }
 }
+
+#projects {
+    background: rgb(0, 0, 0);
+    background: -moz-linear-gradient(0deg, rgba(0, 0, 0, 1) 0%, rgba(0, 0, 0, 0.75) 100%);
+    background: -webkit-linear-gradient(0deg, rgba(0, 0, 0, 1) 0%, rgba(0, 0, 0, 0.75) 100%);
+    background: linear-gradient(0deg, rgba(0, 0, 0, 1) 0%, rgba(0, 0, 0, 0.75) 100%);
+    filter: progid:DXImageTransform.Microsoft.gradient(startColorstr="#000000", endColorstr="#000000", GradientType=1);
+
+    #projects::before {
+        filter: blur(0.15rem);
+        background-image: url(https://raw.githubusercontent.com/HunterWalden/HunterWalden/main/examples/mapmaker/images/screenshot1.png);
+        background-position: center;
+        background-repeat: no-repeat;
+        background-size: cover;
+        background-attachment: fixed;
+        opacity: 0.25;
+        content: "";
+    }
+}
+
 .title {
     margin: auto 0.75rem!important;
 }
@@ -348,8 +368,12 @@ a.navbar-item.is-active {
 
 #page-section {
     .content {
-        ul, ol, blockquote {
+        blockquote {
             display: inline-block;
         }
+    }
+
+    h1, h2, h3 {
+        text-align: center;
     }
 }
