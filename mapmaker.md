@@ -701,7 +701,7 @@ The program is currently released, though the stable version is very basic in de
   - Added MapEditor namespace
   - Added BaseObject abstract base class that all objects derive from
 
-In the above links are specific examples from each feature that best showcase my programming abilities. The full source code is hosted in a [private repository](https://github.com/HunterWalden/IT-Mapmaker), but access can be granted upon request.
+In the above links are specific examples from select features that best showcase my programming abilities. The full source code is hosted in a [private repository](https://github.com/HunterWalden/IT-Mapmaker), but access can be granted upon request.
 
 It is still in active development and its progress is tracked [on Trello](https://trello.com/b/6mFmDxG1/it-mapmaker).
 
