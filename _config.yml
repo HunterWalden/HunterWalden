@@ -2,9 +2,9 @@
 markdown: kramdown
 
 # URL of the Site
-url: 'https://hunterwalden.github.io/HunterWalden'
+url: 'https://hunterwalden.github.io'
 # Base URL of the Site (i.e., Name of the Repository in which the Site is hosted)
-baseurl: 
+baseurl: /HunterWalden
 
 # Title of the Site
 title: Hunter Walden's Portfolio
