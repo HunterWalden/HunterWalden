@@ -7,7 +7,7 @@ url: ''
 baseurl: 
 
 # Title of the Site
-title: Hunter Walden
+title: Hunter Walden's Portfolio
 # Description of the Site
 description: A passionate software developer looking to start my career
 # URL of Image of the Site
@@ -48,7 +48,6 @@ author-image: https://cdn.pixabay.com/photo/2015/10/05/22/37/blank-profile-pictu
 author-about: I discovered coding in 2014 and haven't stopped since. I saw my first source code in my junior year of high school and immediately knew I had found my passion. I taught myself C++ by adding dozens of features to the Impressive Title source code through commissions and personal projects. After graduating high school, I continued my commission work as I earned my Bachelor's degree in Computer Science, padding my existing knowledge with good coding practices and advanced concepts. In 2021 I began development on my own program, an editor utility made for Impressive Title servers, allowing me to expand my knowledge further by applying concepts to real-life coding problems. Though my experience is primarily C++, I worked with several other languages in college and I taught myself most of what I know through hands-on work. I am confident in my ability to read code syntax and follow logic flow in order to adapt to new languages and environments. I am eager for the opportunity to become part of a team and both showcase my abilities and further expand my skillset.
 # URL to the Author's Profile (i.e., Github, Twitter, Stackoverflow, etc)
 author-url: https://github.com/HunterWalden
-author-contact: hunterawalden@gmail | 774.275.9444 | github.com/HunterWalden
 
 # SASS
 sass:
