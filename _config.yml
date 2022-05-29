@@ -9,9 +9,9 @@ baseurl: /HunterWalden
 # Title of the Site
 title: Hunter Walden's Portfolio
 # Description of the Site
-description: A passionate software developer looking to start my career
+description: A portfolio website for Hunter Walden, software developer
 # URL of Image of the Site
-site-image: /assets/images/header.PNG
+site-image: /assets/images/meta.jpg
 # Keywords of the Site
 site-keywords: Portfolio, Programmer
 # URL for the Image of custom Favicon
