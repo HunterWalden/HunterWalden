@@ -1,7 +1,6 @@
 ---
 layout: mainpage
-title: /mapmaker/
-header: Impressive Title MapMaker
+title: Impressive Title MapMaker
 ---
 
 ---

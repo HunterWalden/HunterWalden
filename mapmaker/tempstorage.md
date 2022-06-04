@@ -1,6 +1,5 @@
 ---
-title: /tempstorage/
-header: Temporary Object Storage
+title: Temporary Object Storage
 ---
 
 One goal of mine throughout development has been to catch any errors thrown by the rendering engine (Ogre) itself. This has always been a huge sore spot for Impressive Title: there is no proper try/catch exception setup, there is only one catch statement that encapsulates the entire main execution thread. Basically, if an error happens, it will tell you what it is, but the game will crash. While this likely wasn't a problem in the original Impressive Title, when the media/files were all set up to perfectly pair with the code, once you're trying to add your own maps with new assets, it can become a pain having to constantly relaunch the game. So I did my best to catch all errors and report them back via an ErrorBox, cancelling the failed action rather than ending the entire program.
