@@ -699,10 +699,10 @@ The program is currently released, though the stable version is very basic in de
 
 ## New Version 2 Features
 
-- CTRL+Z functionality to undo the last 10 object changes
+- [CTRL+Z/CTRL+Y functionality to undo/redo the last 10 object changes]({{'mapmaker/undoredo.html' | relative_url }})
 - A brand new Settings box with its own design and functionality, all written from scratch
 - Help Pop-Ups that show and give more detail if you hover certain elements
-- [A temporary storage system that exports unsaved object changes to a file that can be recovered if the program crashes/closes unexpectedly]({{'mapmaker/tempstorage.html' | relative_url }})
+- A temporary storage system that exports unsaved object changes to a file that can be recovered if the program crashes/closes unexpectedly
 - The ability to customize the UI position, tab spacing/alignment, indicator colors, and sensitivity of the up/down arrow buttons on object attributes
 - The ability to customize the program’s keybinds
 - A “Retry” button on File Not Found errors that reloads the resource group to capture any changes and tries the action again

@@ -2,7 +2,7 @@
 title: Undo & Redo
 ---
 
-Among the many standard features of an editor program, the ability to undo and redo any changes is crucial for a stress-free user experience. As I had some users bug-testing the first version, this was one of the first suggestions that came up. It had been in the back of my mind but I also knew it would be a big undertaking, especially with the way my code was currently structured. Luckily, after my [huge overhaul of the object classes](/mapobjects.html), the project became much easier to visualize and implement.
+Among the many standard features of an editor program, the ability to undo and redo any changes is crucial for a stress-free user experience. As I had some users bug-testing the first version, this was one of the first suggestions that came up. It had been in the back of my mind but I also knew it would be a big undertaking, especially with the way my code was currently structured. Luckily, after my [huge overhaul of the object classes]({{'mapmaker/mapobjects.html' | relative_url }}), the project became much easier to visualize and implement.
 
 I knew I needed to log each action before it was performed so that I could grab and store the old value, then revert to it if necessary. This list would need to function as a stack, since the last action is the first to be removed. For each entry on the stack, I would need to know the action type, the object it was performed on, and the old data attached to the action, if applicable. Then if the user pressed CTRL+Z, I would just need to grab the last action from the list and apply the old data to the object pointer based on the action type.
 
